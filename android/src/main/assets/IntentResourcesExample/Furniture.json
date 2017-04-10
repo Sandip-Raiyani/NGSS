@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "Table": {
+        "synonyms": [
+          "Table",
+          "Dining Table",
+          "Study Table"
+        ],
+        "unicode": "4",
+        "expression_id": 1,
+        "resource_name": "emoji_4"
+      }
+    },
+    {
+      "Chairs": {
+        "synonyms": [
+          "Seating Chair",
+          "Wall Chair",
+          "Rocking Chair"
+        ],
+        "unicode": "1f4ba",
+        "expression_id": 2,
+        "resource_name": "emoji_1f4ba"
+      }
+    },
+    {
+      "Mattress": {
+        "synonyms": [
+          "Bed Mattress"
+        ],
+        "unicode": "1f6cf",
+        "expression_id": 3,
+        "resource_name": "emoji_1f6cf"
+      }
+    }
+  ]
+}
+

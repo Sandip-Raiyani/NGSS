@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "Cars": {
+        "synonyms": [
+          "SUV"
+        ],
+        "unicode": "1f697",
+        "expression_id": 1,
+        "resource_name": "emoji_1f697"
+      }
+    },
+    {
+      "Bikes": {
+        "synonyms": [
+          "Cycle",
+          "Bicycle"
+        ],
+        "unicode": "1f6b4",
+        "expression_id": 2,
+        "resource_name": "emoji_1f6b4"
+      }
+    },
+    {
+      "Auxiliaries": {
+        "synonyms": [
+          "Helmet",
+          "Air Pump",
+          "Head Light"
+        ],
+        "unicode": "5",
+        "expression_id": 3,
+        "resource_name": "emoji_5"
+      }
+    }
+  ]
+}

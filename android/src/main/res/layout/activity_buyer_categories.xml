@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/buyer_categories"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d31f3fc7">
+
+    <RelativeLayout
+        android:id="@+id/ro"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fitsSystemWindows="true"
+        tools:context="io.krumbs.sdk.starter.buyerCategories">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="70sp"
+            android:text="@string/appliancesString"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/fanButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_alignLeft="@+id/laptopButton"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignStart="@+id/laptopButton"
+            android:layout_below="@+id/editText"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="50sp"
+            android:background="#e29803"
+            android:text="Fan"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/tubelightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fanButton"
+            android:layout_marginRight="15sp"
+            android:layout_toLeftOf="@+id/auxilliariesButton"
+            android:layout_toStartOf="@+id/auxilliariesButton"
+            android:background="#e29803"
+            android:text="TubeLight"
+            android:textAllCaps="false"
+            android:textSize="23sp"/>
+
+        <Button
+            android:id="@+id/cleanerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tubelightButton"
+            android:layout_alignEnd="@+id/tvButton"
+            android:layout_alignLeft="@+id/auxilliariesButton"
+            android:layout_alignRight="@+id/tvButton"
+            android:layout_alignStart="@+id/auxilliariesButton"
+            android:layout_alignTop="@+id/tubelightButton"
+            android:background="#e29803"
+            android:text="Vaccum Cleaner"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/fanButton"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:text="@string/electronicsString"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/laptopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText2"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="30sp"
+            android:background="#e29803"
+            android:text="Laptop"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/adapterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText3"
+            android:layout_marginLeft="-25sp"
+            android:layout_toEndOf="@+id/editText3"
+            android:layout_toRightOf="@+id/editText3"
+            android:background="#e29803"
+            android:text="Adapters"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/mobilesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/adapterButton"
+            android:layout_toLeftOf="@+id/tvButton"
+            android:layout_toStartOf="@+id/tvButton"
+            android:background="#e29803"
+            android:text="Mobiles"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/tvButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/mobilesButton"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="5sp"
+            android:background="#e29803"
+            android:text="TV"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/laptopButton"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:text="@string/transportString"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/carsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText3"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="250sp"
+            android:background="#e29803"
+            android:text="Cars"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/bikesButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText4"
+            android:layout_alignEnd="@+id/tubelightButton"
+            android:layout_alignRight="@+id/tubelightButton"
+            android:layout_toRightOf="@+id/editText2"
+            android:background="#e29803"
+            android:text="Bikes"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/auxilliariesButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText3"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#e29803"
+            android:text="Auxilliaries"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/carsButton"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:text="@string/furnitureString"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/tablesButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/carsButton"
+            android:layout_alignStart="@+id/carsButton"
+            android:layout_alignTop="@+id/chairsButton"
+            android:background="#e29803"
+            android:text="Tables"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/chairsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/bikesButton"
+            android:layout_alignLeft="@+id/bikesButton"
+            android:layout_alignRight="@+id/bikesButton"
+            android:layout_alignStart="@+id/bikesButton"
+            android:layout_below="@+id/editText4"
+            android:layout_marginRight="-10sp"
+            android:background="#e29803"
+            android:text="Chairs"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/mattressButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText5"
+            android:layout_alignLeft="@+id/auxilliariesButton"
+            android:layout_alignStart="@+id/auxilliariesButton"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="10sp"
+            android:background="#e29803"
+            android:text="Mattress"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tablesButton"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:text="@string/miscellaneousString"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/booksButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText5"
+            android:layout_toLeftOf="@+id/mattressButton"
+            android:layout_toStartOf="@+id/mattressButton"
+            android:background="#e29803"
+            android:text="Books"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/auxilliariesButton"
+            android:layout_alignLeft="@+id/carsButton"
+            android:layout_alignRight="@+id/auxilliariesButton"
+            android:layout_alignStart="@+id/carsButton"
+            android:layout_below="@+id/textView"
+            android:text="CATEGORIES"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fbd811"
+            android:textSize="60sp"/>
+
+    </RelativeLayout>
+</ScrollView>

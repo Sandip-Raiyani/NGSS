@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016 Krumbs Inc.
+  ~ All rights reserved.
+  ~
+-->
+<manifest package="io.krumbs.sdk.starter"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name=".StarterApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/uci_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="io.krumbs.sdk.APPLICATION_ID"
+            android:value="@string/krumbssdk_app_id"/>
+        <meta-data
+            android:name="io.krumbs.sdk.CLIENT_KEY"
+            android:value="@string/krumbssdk_client_key"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        </activity>
+        <activity
+            android:name=".BuyerCategories"
+            android:label="@string/title_activity_buyer_categories"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".ResultsActivity"
+            android:label="@string/title_activity_results"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowImageActivity"
+            android:label="@string/title_activity_show_image"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <service
+            android:name=".GetItemsService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name=".SingleResultActivity">
+        </activity>
+    </application>
+
+</manifest>

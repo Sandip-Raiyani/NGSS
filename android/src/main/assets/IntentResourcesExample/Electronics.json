@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "Mobiles": {
+        "synonyms": [
+          "Landline",
+          "GSM Phone",
+          "Cordless",
+          "Android",
+          "IPhone"
+        ],
+        "unicode": "1f4f1",
+        "expression_id": 4,
+        "resource_name": "emoji_1f4f1"
+      }
+    },
+    {
+      "TV": {
+        "synonyms": [
+          "Television",
+          "Plasma TV",
+          "LED TV"
+        ],
+        "unicode": "1f4fa",
+        "expression_id": 5,
+        "resource_name": "emoji_1f4fa"
+      }
+    },
+    {
+      "Laptop": {
+        "synonyms": [
+          "Tablet",
+          "Phablet"
+        ],
+        "unicode": "1f4bb",
+        "expression_id": 2,
+        "resource_name": "emoji_1f4bb"
+      }
+    },
+    {
+      "Adapters": {
+        "synonyms": [
+          "Wifi Adapters",
+          "Spike Busters",
+          "AC DC Convertor"
+        ],
+        "unicode": "3",
+        "expression_id": 3,
+        "resource_name": "emoji_3"
+      }
+    }
+  ]
+}
+	

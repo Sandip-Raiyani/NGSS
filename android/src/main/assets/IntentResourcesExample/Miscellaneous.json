@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "Books": {
+        "synonyms": [
+          "Text Books",
+          "Note Books",
+          "Paint Books"
+        ],
+        "unicode": "1f4da",
+        "expression_id": 1,
+        "resource_name": "emoji_1f4da"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "Furniture": {
+        "index": 4,
+        "intents_file": "Furniture.json"
+    },
+    "Transport": {
+        "index": 3,
+        "intents_file": "Transport.json"
+    },
+    "Electronics": {
+        "index": 2,
+        "intents_file": "Electronics.json"
+    },
+    "Appliances": {
+        "index": 1,
+        "intents_file": "Appliances.json"
+    },
+    "Miscellaneous": {
+        "index": 5,
+        "intents_file": "Miscellaneous.json"
+    }
+}

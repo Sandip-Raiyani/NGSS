@@ -1,0 +1,40 @@
+{
+    "intents": [
+                {
+                "Fan": {
+                "synonyms": [
+                             "ceiling Fan",
+                             "exhaust Fan",
+                             "table Fan"
+                             ],
+                "unicode": "2",
+                "expression_id": 1,
+                "resource_name": "emoji_2"
+                }
+                },
+                {
+                "Tubelights": {
+                "synonyms": [
+                             "wallmountTubelights",
+                             "bulbs",
+                             "CFL lamps",
+                             "LED",
+                             "PortableTubelights"
+                             ],
+                "unicode": "1f4a1",
+                "expression_id": 2,
+                "resource_name": "emoji_1f4a1"
+                }
+                },
+                {
+                "Vaccum Cleaner": {
+                "synonyms": [
+
+                ],
+                "unicode": "1",
+                "expression_id": 3,
+                "resource_name": "emoji_1"
+                }
+                }
+                ]
+}

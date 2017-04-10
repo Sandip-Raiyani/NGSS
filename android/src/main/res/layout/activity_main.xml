@@ -1,0 +1,110 @@
+<!--
+  ~ Copyright (c) 2016 Krumbs Inc
+  ~ All rights reserved.
+  ~
+  -->
+
+    <RelativeLayout
+        android:id="@+id/parent_container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity"
+        android:background="#d31f3fc7">
+
+        <FrameLayout
+            android:id="@+id/camera_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            android:drawableLeft="@drawable/"
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/kBuyStuffButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="200dp"
+                android:background="#e29803"
+                android:baselineAligned="false"
+                android:onClick="words"
+                android:padding="32dp"
+                android:text="Buy Items"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/kcapturebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="320dp"
+                android:background="#e29803"
+                android:baselineAligned="false"
+                android:onClick="words"
+                android:padding="32dp"
+                android:text="Sell Items"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="182dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/uci_logo"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="57dp"
+                android:text="ONNECT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#e29803"
+                android:textIsSelectable="false"
+                android:textSize="40dp"/>
+
+            <Button
+                android:id="@+id/kLogoutButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Logout"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#e29803"
+                android:baselineAligned="false"
+                android:textSize="25dp"
+                android:layout_marginTop="330dp" />
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
